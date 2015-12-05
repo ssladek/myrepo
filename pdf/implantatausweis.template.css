@@ -1,0 +1,50 @@
+/*DIN A 4: 595 × 842 points*/
+body, html {
+  font-size: 14pt;
+  color: #050505;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 26pt;
+}
+
+
+h3, p {
+  font-size: 14pt;
+}
+
+section, main {
+  display: block;
+}
+
+main {
+  position: absolute;
+  max-width: 545pt; /*595pt - main-left*/
+  top: 45pt;
+  left: 50pt;
+}
+
+td {
+  padding: 2pt 0;
+}
+
+
+.text-blue {
+  color: #0492FF;
+}
+
+.left-row, .right-row {
+  vertical-align: top;
+}
+
+.left-row {
+  min-width: 150pt;
+  text-transform: uppercase;
+}
+
+.vitabook-partner img{
+  position: absolute;
+  top: 15pt;
+  right: 0pt;
+}
